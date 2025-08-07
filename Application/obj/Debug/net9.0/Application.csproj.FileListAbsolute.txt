@@ -1,0 +1,15 @@
+B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+B:\New folder\OnlineShop\Application\bin\Debug\net9.0\Application.deps.json
+B:\New folder\OnlineShop\Application\bin\Debug\net9.0\Application.dll
+B:\New folder\OnlineShop\Application\bin\Debug\net9.0\Application.pdb
+B:\New folder\OnlineShop\Application\bin\Debug\net9.0\Domain.dll
+B:\New folder\OnlineShop\Application\bin\Debug\net9.0\Domain.pdb
+B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.dll
+B:\New folder\OnlineShop\Application\obj\Debug\net9.0\refint\Application.dll
+B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.pdb
+B:\New folder\OnlineShop\Application\obj\Debug\net9.0\ref\Application.dll

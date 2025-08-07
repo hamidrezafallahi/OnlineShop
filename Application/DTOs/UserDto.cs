@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace OnlineShop.Application.DTOs
+{
+    public class UserDto
+    {
+        public Guid Id { get; set; }
+        public string FullName { get; set; } = default!;
+        public string Email { get; set; } = default!;
+        public string PhoneNumber { get; set; } = default!;
+
+        // معمولا سفارش‌ها در یک DTO جداگانه مدیریت می‌شوند و فقط شناسه‌ها می‌آیند:
+        public List<Guid>? OrderIds { get; set; }
+
+        // آدرس‌ها هم می‌توانند به صورت یک لیست DTO جداگانه تعریف شوند:
+        public List<UserAddressDto>? Addresses { get; set; }
+
+        // اگر بخواهی می‌توانی اطلاعات مربوط به سبد خرید را هم اضافه کنی
+        // ولی معمولاً یک DTO جداگانه برای Cart می‌سازند.
+    }
+
+    public class UserAddressDto
+    {
+        public Guid Id { get; set; }
+        public Guid UserId { get; set; }
+        public string City { get; set; } = default!;
+        public string State { get; set; } = default!;
+        public string PostalCode { get; set; } = default!;
+        public string FullAddress { get; set; } = default!;
+        public bool IsDefault { get; set; }
+    }
+}
