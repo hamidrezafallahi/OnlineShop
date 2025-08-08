@@ -1,4 +1,6 @@
-﻿using OnlineShop.Application.DTOs;
+﻿
+
+using Application.Commands.Users.Dtos;
 
 namespace OnlineShop.Application.Interfaces
 {

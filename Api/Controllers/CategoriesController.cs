@@ -1,6 +1,6 @@
-﻿using MediatR;
+﻿using Application.Commands.Categories;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using OnlineShop.Application.Categories.Commands;
 
 [ApiController]
 [Route("api/[controller]")]

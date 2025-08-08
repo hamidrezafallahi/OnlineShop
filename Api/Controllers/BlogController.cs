@@ -1,7 +1,7 @@
-﻿using MediatR;
+﻿using Application.Commands.Blogs.Commands;
+using Application.Commands.Blogs.Dtos;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using OnlineShop.Application.Blogs.Commands;
-using OnlineShop.Application.Blogs.Dtos;
 
 [ApiController]
 [Route("api/[controller]")]

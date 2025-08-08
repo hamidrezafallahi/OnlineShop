@@ -11,10 +11,10 @@ B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.Generate
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
-B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json

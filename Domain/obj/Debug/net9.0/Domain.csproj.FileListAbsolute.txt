@@ -5,8 +5,8 @@ B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorCo
 B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
 B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
 B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\Domain.sourcelink.json
 B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\Domain.dll
 B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\refint\Domain.dll
 B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\Domain.pdb
 B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\ref\Domain.dll
-B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\Domain.sourcelink.json

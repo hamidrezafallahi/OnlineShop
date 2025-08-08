@@ -1,6 +1,4 @@
-﻿using OnlineShop.Application.DTOs;
-
-
+﻿using Application.Commands.Orders.Dtos;
 namespace OnlineShop.Application.Interfaces
 {
     public interface IOrderItemService

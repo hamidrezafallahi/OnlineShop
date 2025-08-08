@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using OnlineShop.Application.DTOs;
+using Application.Commands.Carts.Dtos;
+
 namespace OnlineShop.Application.Interfaces
 {
     public interface ICartItemService
