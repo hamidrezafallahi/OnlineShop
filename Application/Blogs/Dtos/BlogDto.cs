@@ -15,4 +15,5 @@ namespace OnlineShop.Application.Blogs.Dtos
 
     }
 
+
 }

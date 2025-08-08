@@ -17,3 +17,4 @@ B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.d
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
 B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+B:\New folder\OnlineShop\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json

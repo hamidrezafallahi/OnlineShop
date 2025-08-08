@@ -9,3 +9,4 @@ B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\Domain.dll
 B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\refint\Domain.dll
 B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\Domain.pdb
 B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\ref\Domain.dll
+B:\New folder\OnlineShop\Domain\obj\Debug\net9.0\Domain.sourcelink.json

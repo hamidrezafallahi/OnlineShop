@@ -13,3 +13,4 @@ B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.dll
 B:\New folder\OnlineShop\Application\obj\Debug\net9.0\refint\Application.dll
 B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.pdb
 B:\New folder\OnlineShop\Application\obj\Debug\net9.0\ref\Application.dll
+B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.sourcelink.json

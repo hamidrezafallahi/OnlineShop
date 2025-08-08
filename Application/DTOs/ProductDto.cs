@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace OnlineShop.Application.DTOs
+﻿namespace OnlineShop.Application.DTOs
 {
     public class ProductDto
     {
@@ -13,8 +10,6 @@ namespace OnlineShop.Application.DTOs
         public Guid CategoryId { get; set; }
         public Guid? BrandId { get; set; }
         public Guid? DiscountId { get; set; }
-
-        // برای تصاویر، معمولاً فقط URL یا شناسه تصاویر آورده می‌شود:
         public List<string> ImageUrls { get; set; } = new List<string>();
     }
 }
