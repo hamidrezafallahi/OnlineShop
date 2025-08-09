@@ -1,9 +1,19 @@
-﻿using Application.Commands.Blogs.Dtos;
+﻿
+
+
+
+
+
+
+
+
+using Application.Commands.Blogs.Dtos;
 using Application.Commands.Users.Dtos;
 using Application.Commands.Orders.Dtos;
+using Application.Commands.Carts.Dtos;
 using AutoMapper;
 using OnlineShop.Domain.Entities;
-using Application.Commands.Carts.Dtos;
+
 namespace Application.Common.Mappings;
 
 public class UserMappingProfile : Profile
@@ -15,10 +25,15 @@ public class UserMappingProfile : Profile
             .ForMember(dest => dest.Addresses, opt => opt.MapFrom(src => src.Addresses));
 
         CreateMap<UserAddress, UserAddressDto>();
-        //CreateMap<Order, OrderDto>()
-        //    .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.Items));
-        //CreateMap<OrderItem, OrderItemDto>();
-        //CreateMap<Blog, BlogDto>();
-        //CreateMap<Cart, CartDto>();
+
+        CreateMap<Order, OrderDto>()
+            .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.Items));
+        CreateMap<OrderItem, OrderItemDto>();
+
+        CreateMap<Blog, BlogDto>();
+
+        CreateMap<Cart, CartDto>()
+            .ForMember(dest => dest.Items, opt => opt.MapFrom(src => src.Items));
+        CreateMap<CartItem, CartItemDto>();
     }
 }

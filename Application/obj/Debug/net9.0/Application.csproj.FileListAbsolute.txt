@@ -14,3 +14,19 @@ B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.dll
 B:\New folder\OnlineShop\Application\obj\Debug\net9.0\refint\Application.dll
 B:\New folder\OnlineShop\Application\obj\Debug\net9.0\Application.pdb
 B:\New folder\OnlineShop\Application\obj\Debug\net9.0\ref\Application.dll
+C:\falahi\OnlineShop\Application\bin\Debug\net9.0\Application.deps.json
+C:\falahi\OnlineShop\Application\bin\Debug\net9.0\Application.dll
+C:\falahi\OnlineShop\Application\bin\Debug\net9.0\Application.pdb
+C:\falahi\OnlineShop\Application\bin\Debug\net9.0\Domain.dll
+C:\falahi\OnlineShop\Application\bin\Debug\net9.0\Domain.pdb
+C:\falahi\OnlineShop\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+C:\falahi\OnlineShop\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\falahi\OnlineShop\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+C:\falahi\OnlineShop\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+C:\falahi\OnlineShop\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+C:\falahi\OnlineShop\Application\obj\Debug\net9.0\Application.sourcelink.json
+C:\falahi\OnlineShop\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+C:\falahi\OnlineShop\Application\obj\Debug\net9.0\Application.dll
+C:\falahi\OnlineShop\Application\obj\Debug\net9.0\refint\Application.dll
+C:\falahi\OnlineShop\Application\obj\Debug\net9.0\Application.pdb
+C:\falahi\OnlineShop\Application\obj\Debug\net9.0\ref\Application.dll

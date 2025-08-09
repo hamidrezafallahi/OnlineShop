@@ -2,7 +2,7 @@
 using OnlineShop.Application.Common.Interfaces;
 using OnlineShop.Domain.Entities;
 
-namespace Application.Commands.Categories
+namespace Application.Commands.Categories.Commands
 {
     public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryCommand, Guid>
     {

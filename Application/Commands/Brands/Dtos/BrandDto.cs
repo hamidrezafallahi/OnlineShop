@@ -1,4 +1,4 @@
-﻿namespace OnlineShop.Application.DTOs
+﻿namespace Application.Commands.Brands.Dtos
 {
     public class BrandDto
     {

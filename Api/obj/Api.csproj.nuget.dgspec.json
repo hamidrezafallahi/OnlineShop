@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "B:\\New folder\\OnlineShop\\Api\\Api.csproj": {}
+    "C:\\falahi\\OnlineShop\\Api\\Api.csproj": {}
   },
   "projects": {
-    "B:\\New folder\\OnlineShop\\Api\\Api.csproj": {
+    "C:\\falahi\\OnlineShop\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\New folder\\OnlineShop\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\falahi\\OnlineShop\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "B:\\New folder\\OnlineShop\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\hamidreza fallahi\\.nuget\\packages\\",
-        "outputPath": "B:\\New folder\\OnlineShop\\Api\\obj\\",
+        "projectPath": "C:\\falahi\\OnlineShop\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\h.falahi\\.nuget\\packages\\",
+        "outputPath": "C:\\falahi\\OnlineShop\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hamidreza fallahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\h.falahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "B:\\New folder\\OnlineShop\\Application\\Application.csproj": {
-                "projectPath": "B:\\New folder\\OnlineShop\\Application\\Application.csproj"
+              "C:\\falahi\\OnlineShop\\Application\\Application.csproj": {
+                "projectPath": "C:\\falahi\\OnlineShop\\Application\\Application.csproj"
               },
-              "B:\\New folder\\OnlineShop\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "B:\\New folder\\OnlineShop\\Infrastructure\\Infrastructure.csproj"
+              "C:\\falahi\\OnlineShop\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\falahi\\OnlineShop\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -51,7 +51,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -111,24 +111,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "B:\\New folder\\OnlineShop\\Application\\Application.csproj": {
+    "C:\\falahi\\OnlineShop\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\New folder\\OnlineShop\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\falahi\\OnlineShop\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "B:\\New folder\\OnlineShop\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\hamidreza fallahi\\.nuget\\packages\\",
-        "outputPath": "B:\\New folder\\OnlineShop\\Application\\obj\\",
+        "projectPath": "C:\\falahi\\OnlineShop\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\h.falahi\\.nuget\\packages\\",
+        "outputPath": "C:\\falahi\\OnlineShop\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hamidreza fallahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\h.falahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -143,8 +143,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "B:\\New folder\\OnlineShop\\Domain\\Domain.csproj": {
-                "projectPath": "B:\\New folder\\OnlineShop\\Domain\\Domain.csproj"
+              "C:\\falahi\\OnlineShop\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\falahi\\OnlineShop\\Domain\\Domain.csproj"
               }
             }
           }
@@ -159,7 +159,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -199,24 +199,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "B:\\New folder\\OnlineShop\\Domain\\Domain.csproj": {
+    "C:\\falahi\\OnlineShop\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\New folder\\OnlineShop\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\falahi\\OnlineShop\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "B:\\New folder\\OnlineShop\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\hamidreza fallahi\\.nuget\\packages\\",
-        "outputPath": "B:\\New folder\\OnlineShop\\Domain\\obj\\",
+        "projectPath": "C:\\falahi\\OnlineShop\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\h.falahi\\.nuget\\packages\\",
+        "outputPath": "C:\\falahi\\OnlineShop\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hamidreza fallahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\h.falahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -243,7 +243,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -264,24 +264,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "B:\\New folder\\OnlineShop\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\falahi\\OnlineShop\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\New folder\\OnlineShop\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\falahi\\OnlineShop\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "B:\\New folder\\OnlineShop\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\hamidreza fallahi\\.nuget\\packages\\",
-        "outputPath": "B:\\New folder\\OnlineShop\\Infrastructure\\obj\\",
+        "projectPath": "C:\\falahi\\OnlineShop\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\h.falahi\\.nuget\\packages\\",
+        "outputPath": "C:\\falahi\\OnlineShop\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hamidreza fallahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\h.falahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -296,11 +296,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "B:\\New folder\\OnlineShop\\Application\\Application.csproj": {
-                "projectPath": "B:\\New folder\\OnlineShop\\Application\\Application.csproj"
+              "C:\\falahi\\OnlineShop\\Application\\Application.csproj": {
+                "projectPath": "C:\\falahi\\OnlineShop\\Application\\Application.csproj"
               },
-              "B:\\New folder\\OnlineShop\\Domain\\Domain.csproj": {
-                "projectPath": "B:\\New folder\\OnlineShop\\Domain\\Domain.csproj"
+              "C:\\falahi\\OnlineShop\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\falahi\\OnlineShop\\Domain\\Domain.csproj"
               }
             }
           }
@@ -315,7 +315,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -352,7 +352,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

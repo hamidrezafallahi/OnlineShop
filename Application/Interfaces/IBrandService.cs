@@ -1,4 +1,4 @@
-﻿using OnlineShop.Application.DTOs;
+﻿using Application.Commands.Brands.Dtos;
 
 namespace OnlineShop.Application.Interfaces
 {

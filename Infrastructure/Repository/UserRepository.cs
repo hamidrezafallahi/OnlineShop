@@ -3,7 +3,6 @@ using OnlineShop.Domain.Entities;
 using OnlineShop.Domain.Interfaces;
 using OnlineShop.Infrastructure.Persistence;
 
-
 namespace OnlineShop.Infrastructure.Repositories
 {
     public class UserRepository : IUserRepository
@@ -62,6 +61,11 @@ namespace OnlineShop.Infrastructure.Repositories
         {
             _context.Users.Update(entity);
             await Task.CompletedTask;
+        }
+
+        public IQueryable<User> Table()
+        {
+            return _context.Users.AsQueryable();
         }
     }
 }

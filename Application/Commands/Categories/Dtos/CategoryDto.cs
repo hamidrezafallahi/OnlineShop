@@ -1,4 +1,4 @@
-﻿namespace OnlineShop.Application.DTOs
+﻿namespace Application.Commands.Categories.Dtos
 {
     public class CategoryDto
     {

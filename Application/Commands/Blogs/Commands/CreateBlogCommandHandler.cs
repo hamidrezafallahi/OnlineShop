@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using Domain.Interfaces;
+using MediatR;
 using OnlineShop.Application.Common.Interfaces;
 using OnlineShop.Domain.Entities;
 
@@ -6,30 +7,17 @@ namespace Application.Commands.Blogs.Commands
 {
     public class CreateBlogCommandHandler : IRequestHandler<CreateBlogCommand, Guid>
     {
-        private readonly IApplicationDbContext _context;
+        private readonly IBlogRepository _blog;
 
-        public CreateBlogCommandHandler(IApplicationDbContext context)
+        public CreateBlogCommandHandler(IBlogRepository blog)
         {
-            _context = context;
+            _blog = blog;
         }
 
         public async Task<Guid> Handle(CreateBlogCommand request, CancellationToken cancellationToken)
         {
-            var blog = new Blog
-            {
-                Id = Guid.NewGuid(),
-                Title = request.BlogDto.Title,
-                Slug = request.BlogDto.Slug,
-                Content = request.BlogDto.Content,
-                ThumbnailUrl = request.BlogDto.ThumbnailUrl,
-                AuthorId = request.AuthorId,
-                CreatedAt = DateTime.UtcNow
-            };
-
-            _context.Blogs.Add(blog);
-            await _context.SaveChangesAsync(cancellationToken);
-
-            return blog.Id;
+            await _blog.AddAsync(request.BlogDto, cancellationToken);
+            return Guid.Empty;
         }
     }
 

@@ -3,25 +3,24 @@ using Microsoft.EntityFrameworkCore;
 using OnlineShop.Application.Common.Interfaces;
 using OnlineShop.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
+using OnlineShop.Domain.Interfaces;
 
 public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Guid>
 {
-    private readonly IApplicationDbContext _context;
+    private readonly IUserRepository _repo;
     private readonly IPasswordHasher<User> _passwordHasher;
 
     public CreateUserCommandHandler(
-        IApplicationDbContext context,
-        IPasswordHasher<User> passwordHasher)
+        IPasswordHasher<User> passwordHasher, IUserRepository repo)
     {
-        _context = context;
         _passwordHasher = passwordHasher;
+        _repo = repo;
     }
 
     public async Task<Guid> Handle(CreateUserCommand request, CancellationToken cancellationToken)
     {
         // چک کردن ایمیل تکراری
-        var existingUser = await _context.Users
-            .AsNoTracking()
+        var existingUser = await _repo.Table().AsNoTracking()
             .FirstOrDefaultAsync(u => u.Email == request.Email, cancellationToken);
 
         if (existingUser != null)

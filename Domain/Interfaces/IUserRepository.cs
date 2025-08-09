@@ -6,6 +6,7 @@ namespace OnlineShop.Domain.Interfaces
     {
         // دریافت کاربر با ایمیل (مثلاً برای لاگین)
         Task<User?> GetByEmailAsync(string email);
+        IQueryable<User> Table();
 
         // دریافت کاربر با شماره تلفن
         Task<User?> GetByPhoneNumberAsync(string phoneNumber);
